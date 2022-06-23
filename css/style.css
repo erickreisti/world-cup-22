@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+body {
+  /* background-color: darkblue; */
+  font-family: "Nunito", sans-serif;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 1rem;
+  width: 12vw;
+  height: 80vh;
+  border-radius: 0 0 200px 200px;
+  background-color: #dbc500;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.navbar__brand {
+  width: 10vw;
+}
+
+.navbar-list {
+  text-align: center;
+}
+
+.navbar-list__item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+}
+
+.navbar-list__items {
+  padding: 1rem 0.5rem;
+}
+
+.navbar-item__a {
+  color: rgb(0, 87, 0);
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: flex-end; */
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(200deg, rgba(0, 56, 121, 0.6) 10%, transparent),
+    url("../images/CBF_Fachada_2.jpg") center/cover no-repeat border-box;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 80vw;
+}
+
+.wrapper-phrase {
+  width: 12rem;
+  padding: 1rem 0.5rem;
+}
+
+.wrapper-phrase h3 {
+  font-size: clamp(0.5rem, 1.5rem, 1.6rem);
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.wrapper-qatar {
+  width: 20rem;
+  border-left: 2px solid white;
+  padding: 1rem 2rem;
+}
+
+.wrapper-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 1rem 0.5rem;
+  color: white;
+}
+
+.wrapper-banner__info > h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.wrapper-banner__info > h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.wrapper-banner__info h2 span {
+  color: rgb(201, 162, 57);
+}
+
+.wrapper-banner__video iframe {
+  width: 30vw;
+  height: 40vh;
+}
+
+.offerings-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20vh;
+  padding: 1rem 1rem;
+}
+
+.offerings-flex__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  height: 10vh;
+  border-radius: 50px 50px 50px 50px;
+  /* -webkit-backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 2rem 2rem;
+}
+
+.offerings-sponsors__brand {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 0 1rem;
+}
+.offerings-sponsors__brand h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.offerings-sponsors__brand img {
+  width: 4rem;
+}
+
+.offerings-nacional {
+  display: flex;
+  align-items: center;
+}
+
+.offerings__flag {
+  width: 8rem;
+  padding: 0 1rem;
+}
+
+.offerings__institutional {
+  border-left: 2px solid white;
+  padding: 0 1rem;
+}
+
+.offerings__institutional h3 {
+  color: white;
+  font-weight: 400;
+}
